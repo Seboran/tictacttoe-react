@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "oxlint -A all -D all app/**",
-    "lint:fix": "oxlint -A all -D all app/** --fix"
+    "lint:fix": "oxlint -A all -D all app/** --fix",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "next": "14.0.1",
@@ -16,16 +18,22 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.1.1",
+    "@vitest/coverage-v8": "^0.34.6",
     "autoprefixer": "^10.0.1",
+    "happy-dom": "^12.10.3",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "oxlint": "^0.0.15",
     "postcss": "^8",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^0.34.6"
   }
 }
