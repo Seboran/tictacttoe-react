@@ -1,5 +1,6 @@
 name: Pnpm build and test
 
+
 on:
   push:
     branches: [ "main" ]
@@ -16,6 +17,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2.4.0
+            
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -35,6 +39,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2.4.0
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
