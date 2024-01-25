@@ -27,7 +27,7 @@
     "@vitest/coverage-v8": "^1.0.2",
     "autoprefixer": "^10.4.16",
     "happy-dom": "^13.0.0",
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "lint-staged": "^15.2.0",
     "oxlint": "^0.2.0",
     "postcss": "^8.4.32",
