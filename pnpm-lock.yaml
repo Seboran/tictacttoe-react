@@ -20,7 +20,7 @@ importers:
     devDependencies:
       '@testing-library/jest-dom':
         specifier: ^6.1.5
-        version: 6.4.5(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.1))
+        version: 6.4.5(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.2))
       '@testing-library/react':
         specifier: ^15.0.0
         version: 15.0.7(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -38,13 +38,13 @@ importers:
         version: 4.2.1(vite@5.2.11(@types/node@20.12.11))
       '@vitest/coverage-v8':
         specifier: ^1.0.2
-        version: 1.6.0(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.1))
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.2))
       autoprefixer:
         specifier: ^10.4.16
         version: 10.4.19(postcss@8.4.38)
       happy-dom:
         specifier: ^14.0.0
-        version: 14.10.1
+        version: 14.10.2
       husky:
         specifier: ^9.0.0
         version: 9.0.11
@@ -68,7 +68,7 @@ importers:
         version: 5.4.5
       vitest:
         specifier: ^1.0.2
-        version: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.1)
+        version: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.2)
 
 packages:
 
@@ -996,8 +996,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  happy-dom@14.10.1:
-    resolution: {integrity: sha512-GRbrZYIezi8+tTtffF4v2QcF8bk1h2loUTO5VYQz3GZdrL08Vk0fI+bwf/vFEBf4C/qVf/easLJ/MY1wwdhytA==}
+  happy-dom@14.10.2:
+    resolution: {integrity: sha512-n9A1h5X4OCJ1ACjjrLQJQ10F02dkGj9wpPdtam/LsxPHfcpsRp55Kfrruz/LVbDuM4QLwgZ56jr4OSVImWZkhQ==}
     engines: {node: '>=16.0.0'}
 
   has-flag@3.0.0:
@@ -2142,7 +2142,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.1))':
+  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.2))':
     dependencies:
       '@adobe/css-tools': 4.3.3
       '@babel/runtime': 7.24.5
@@ -2153,7 +2153,7 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
     optionalDependencies:
-      vitest: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.1)
+      vitest: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.2)
 
   '@testing-library/react@15.0.7(@types/react@18.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -2216,7 +2216,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.1))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.2))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -2231,7 +2231,7 @@ snapshots:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.1)
+      vitest: 1.6.0(@types/node@20.12.11)(happy-dom@14.10.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -2585,7 +2585,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  happy-dom@14.10.1:
+  happy-dom@14.10.2:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -3230,7 +3230,7 @@ snapshots:
       '@types/node': 20.12.11
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.1):
+  vitest@1.6.0(@types/node@20.12.11)(happy-dom@14.10.2):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -3254,7 +3254,7 @@ snapshots:
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@types/node': 20.12.11
-      happy-dom: 14.10.1
+      happy-dom: 14.10.2
     transitivePeerDependencies:
       - less
       - lightningcss
