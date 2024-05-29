@@ -20,13 +20,13 @@ importers:
     devDependencies:
       '@testing-library/jest-dom':
         specifier: ^6.1.5
-        version: 6.4.5(vitest@1.6.0(@types/node@20.12.12)(happy-dom@14.11.4))
+        version: 6.4.5(vitest@1.6.0(@types/node@20.12.13)(happy-dom@14.11.4))
       '@testing-library/react':
         specifier: ^15.0.0
         version: 15.0.7(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^20.10.4
-        version: 20.12.12
+        version: 20.12.13
       '@types/react':
         specifier: ^18.2.42
         version: 18.3.3
@@ -35,10 +35,10 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.3.0(vite@5.2.11(@types/node@20.12.12))
+        version: 4.3.0(vite@5.2.11(@types/node@20.12.13))
       '@vitest/coverage-v8':
         specifier: ^1.0.2
-        version: 1.6.0(vitest@1.6.0(@types/node@20.12.12)(happy-dom@14.11.4))
+        version: 1.6.0(vitest@1.6.0(@types/node@20.12.13)(happy-dom@14.11.4))
       autoprefixer:
         specifier: ^10.4.16
         version: 10.4.19(postcss@8.4.38)
@@ -68,7 +68,7 @@ importers:
         version: 5.4.5
       vitest:
         specifier: ^1.0.2
-        version: 1.6.0(@types/node@20.12.12)(happy-dom@14.11.4)
+        version: 1.6.0(@types/node@20.12.13)(happy-dom@14.11.4)
 
 packages:
 
@@ -617,8 +617,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  '@types/node@20.12.13':
+    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -2123,7 +2123,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.12.12)(happy-dom@14.11.4))':
+  '@testing-library/jest-dom@6.4.5(vitest@1.6.0(@types/node@20.12.13)(happy-dom@14.11.4))':
     dependencies:
       '@adobe/css-tools': 4.3.3
       '@babel/runtime': 7.24.5
@@ -2134,7 +2134,7 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
     optionalDependencies:
-      vitest: 1.6.0(@types/node@20.12.12)(happy-dom@14.11.4)
+      vitest: 1.6.0(@types/node@20.12.13)(happy-dom@14.11.4)
 
   '@testing-library/react@15.0.7(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -2171,7 +2171,7 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/node@20.12.12':
+  '@types/node@20.12.13':
     dependencies:
       undici-types: 5.26.5
 
@@ -2186,18 +2186,18 @@ snapshots:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  '@vitejs/plugin-react@4.3.0(vite@5.2.11(@types/node@20.12.12))':
+  '@vitejs/plugin-react@4.3.0(vite@5.2.11(@types/node@20.12.13))':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-transform-react-jsx-self': 7.24.5(@babel/core@7.24.5)
       '@babel/plugin-transform-react-jsx-source': 7.24.1(@babel/core@7.24.5)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types/node@20.12.13)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.12.12)(happy-dom@14.11.4))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.12.13)(happy-dom@14.11.4))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -2212,7 +2212,7 @@ snapshots:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.12.12)(happy-dom@14.11.4)
+      vitest: 1.6.0(@types/node@20.12.13)(happy-dom@14.11.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -3196,13 +3196,13 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-node@1.6.0(@types/node@20.12.12):
+  vite-node@1.6.0(@types/node@20.12.13):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.11(@types/node@20.12.13)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3213,16 +3213,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.2.11(@types/node@20.12.12):
+  vite@5.2.11(@types/node@20.12.13):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.12.12)(happy-dom@14.11.4):
+  vitest@1.6.0(@types/node@20.12.13)(happy-dom@14.11.4):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -3241,11 +3241,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.11(@types/node@20.12.12)
-      vite-node: 1.6.0(@types/node@20.12.12)
+      vite: 5.2.11(@types/node@20.12.13)
+      vite-node: 1.6.0(@types/node@20.12.13)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       happy-dom: 14.11.4
     transitivePeerDependencies:
       - less
